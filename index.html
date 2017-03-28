@@ -1,47 +1,48 @@
 <!DOCTYPE html>
   <html>
     <head>
-	 <meta charset="utf-8" />
-      <title> Formation HTML5 </title>
+	    <meta charset="utf-8" />
+        <title> Formation HTML5 </title>
     </head>
-   <body>
-     <header>
-       <h1> Initiation au HTML5 </h1>
-       <img src="HTML.jpg">
-       <a href="https://www.google.fr/search?q=html&safe=off&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjd-bia2_jSAhVKcBoKHQEECgYQ_AUIBigB&biw=1536&bih=759&dpr=1.25#imgrc=3ZsE7FjHf8n_eM:">Source</a>
+    <body>
+      <header>
+        <h1> Initiation au HTML5 </h1>
+        <img src="HTML.jpg">
+        <a href="https://www.google.fr/search?q=html&safe=off&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjd-bia2_jSAhVKcBoKHQEECgYQ_AUIBigB&biw=1536&bih=759&dpr=1.25#imgrc=3ZsE7FjHf8n_eM:">Source</a>
      </header>
      <nav>
        <p><strong>Index :</strong></p>
        <p><a href="#introduction">Introduction</a></p>
        <p><a href="#structurebasique">Structure basique d'un document HTML</a></p>
        <p><a href="#structurerdoc">Structurer son document</a></p>
+       <p><a href="#tableaux">Tableaux</a></p>
        <p><a href="#exbalise">Exemples de balises</a></p>
      </nav>
      <aside>
        <p><strong>Glossaire :</strong></p>
      </aside>
      <article id="introduction">
-     <h2> Introduction</h2>
-     <p>Le HTML (HyperText Markup Language) a été créé en 1991 et sert à struturer sémentiquement le contenu du document web.</p>
-     <p>Les langages HTML et CSS sont utilisés dans tous les projets de développement web car les navigateurs utilisent ce code afin d'afficher les pages web.</p>
-     <p>Le HTML5 est la dernière version de HTML. Cette version a été finalisé en octobre 2014 par le W3C.</p>
-     <p>Certains navigateurs ne supportent pas toutes les fonctionnalités par le HTML5. Afin d'obtenir plus d'information, il est possible d'aller sur le site <a href="http://caniuse.com">CanIUse</a>.</p>
-     <p>Les balises fonctionnent avec des chevrons (" <strong>&lt;</strong> " et " <strong>&gt;</strong> "). Exemple : <strong>&lt;Exemple&gt;</strong> Texte <strong>&lt;/Exemple&gt;</strong>.</p>
-     <p>Les balises sémantiques servent à regrouper les éléments en groupes ordonnés.</p>
+       <h2> Introduction</h2>
+       <p>Le HTML (HyperText Markup Language) a été créé en 1991 et sert à struturer sémentiquement le contenu du document web.</p>
+       <p>Les langages HTML et CSS sont utilisés dans tous les projets de développement web car les navigateurs utilisent ce code afin d'afficher les pages web.</p>
+       <p>Le HTML5 est la dernière version de HTML. Cette version a été finalisé en octobre 2014 par le W3C.</p>
+       <p>Certains navigateurs ne supportent pas toutes les fonctionnalités par le HTML5. Afin d'obtenir plus d'information, il est possible d'aller sur le site <a href="http://caniuse.com">CanIUse</a>.</p>
+       <p>Les balises fonctionnent avec des chevrons (" <strong>&lt;</strong> " et " <strong>&gt;</strong> "). Exemple : <strong>&lt;Exemple&gt;</strong> Texte <strong>&lt;/Exemple&gt;</strong>.</p>
+       <p>Les balises sémantiques servent à regrouper les éléments en groupes ordonnés.</p>
      </article>
      <article id="structurebasique">
-     <h2> Structure basique d'un document HTML</h2>
-       <p> Les méthadonnées d'HTML5 :
-         <pre>
-          <strong>&lt;!DOCTYPE html&gt;</strong> "Pour indiquer la version de l'HTML"
-            <strong>&lt;html&gt;</strong>
-              <strong>&lt;head&gt;</strong> "Pour indiquer les instructions"
-              <strong>&lt;meta charset="utf-8" /&gt;</strong> "Pour indiquer le jeu d'encodage"
-                <strong>&lt;title&gt;</strong>"nom du titre"<strong>&lt;/title&gt;</strong>
-              <strong>&lt;/head&gt;</strong>
-              <strong>&lt;body&gt;</strong>
+       <h2> Structure basique d'un document HTML</h2>
+         <p> Les méthadonnées d'HTML5 :
+           <pre>
+             <strong>&lt;!DOCTYPE html&gt;</strong> "Pour indiquer la version de l'HTML"
+               <strong>&lt;html&gt;</strong>
+                 <strong>&lt;head&gt;</strong> "Pour indiquer les instructions"
+                 <strong>&lt;meta charset="utf-8" /&gt;</strong> "Pour indiquer le jeu d'encodage"
+                   <strong>&lt;title&gt;</strong>"nom du titre"<strong>&lt;/title&gt;</strong>
+               <strong>&lt;/head&gt;</strong>
+               <strong>&lt;body&gt;</strong>
                   "pour le corps du texte"
-              <strong>&lt;/body&gt;</strong>
+               <strong>&lt;/body&gt;</strong>
             <strong>&lt;/html&gt;</strong>
           </pre> </p>
      </article>
@@ -57,6 +58,81 @@
        <li><strong>&lt;footer&gt; &lt;/footer&gt;</strong> : pied de page de la section.</li>
     </ul>
     </article>
+    <article id=tableaux>
+    <h2> Les tableaux</h2>
+    <p>En HTML un tableau est un ensemble de lignes contenant des cellules.</p>
+    <p>C'est l'emplilement de ses lignes qui forme le tableau ; il n'y a pas de colonnes.</p>
+    <p>Exemple d'un tableau :</p>
+    <table>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>D</td>
+      </tr>
+    </table>
+    <p>En HTML ce tableau s'écrit :</p>
+    <pre>
+      &lt;table&gt;
+        &lt;tr&gt;
+          &lt;td&gt;A&lt;/td&gt;
+          &lt;td&gt;B&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;C&lt;/td&gt;
+          &lt;td&gt;D&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    </pre>
+    <p>Pour rajouter un entête et un pied de page :</p>
+    <table>
+      <thead>
+        <th>Nom</th>
+        <th>prenom</th>
+      </thead>
+      <tfoot>
+        <th>sexe</th>
+        <th>age<th>
+      <tfoot>
+      <tr>
+        <td>Bouessay</td>
+        <td>Benoit</td>
+      </tr>
+      <tr>
+        <td>Viteri</td>
+        <td>Susana</td>
+      </tr>
+    </table>
+    <p>En HTML ce tableau s'écrit :</p>
+    <pre>
+      &lt;table&gt;
+        &lt;thead&gt;
+          &lt;th&gt;Nom&lt;/th&gt;
+          &lt;th&gt;prenom&lt;/th&gt;
+        &lt;/thead&gt;
+        &lt;tfoot&gt;
+          &lt;th>sexe&lt;/th&gt;
+          &lt;th>age&lt;th&gt;
+        &lt;tfoot&gt;
+        &lt;tr&gt;
+          &lt;td>Bouessay&lt;/td&gt;
+          &lt;td>Benoit&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Viteri&lt;/td&gt;
+          &lt;td&gt;Susana&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    </pre>
+    <p>Pour fusionner deux cellules de la même ligne : rowspan="2"</p>
+    <p>Pour fusionner deux cellules de la même hauteur : colspan="2"</p>
+    <p>Pour écrire une légende :
+    <strong>&lt;caption&gt;</strong>legende<strong>&lt;/caption&gt;</strong> (attention toujour en premier élément du tableau)</p>
+    <p>Pour définir une colonne : <strong>&lt;col&gt;</strong> (juste après legende)</p>
+    <p>Pour définir un groupe de colonnes : <strong>&lt;colgroup&gt;</strong></p>
+
     <article id=exbalise>
      <h2> Exemples de balises</h2>
     <ul>
@@ -90,8 +166,8 @@
      <li>Pour créer un lien qui renvoie à une partie du document :
          <p><strong>&lt;li&gt; &lt;a href = "#exemple"&gt; &lt;Lienexemple &lt;/a&gt;</strong></p>
          <p><strong>&lt;article id = "exemple"&gt;</strong></p></li>
-   </ul>
+     </ul>
    </article>
    <footer> <em>© 2017 All rights reserved.</em></footer>
-   </body>
- </html>
+</body>
+</html>
