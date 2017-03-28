@@ -11,7 +11,7 @@
        <a href="https://www.google.fr/search?q=html&safe=off&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjd-bia2_jSAhVKcBoKHQEECgYQ_AUIBigB&biw=1536&bih=759&dpr=1.25#imgrc=3ZsE7FjHf8n_eM:">Source</a>
      </header>
      <nav>
-       <p><strong>Contenu de la page :</strong></p>
+       <p><strong>Index :</strong></p>
        <p><a href="#introduction">Introduction</a></p>
        <p><a href="#structurebasique">Structure basique d'un document HTML</a></p>
        <p><a href="#structurerdoc">Structurer son document</a></p>
@@ -31,7 +31,8 @@
      </article>
      <article id="structurebasique">
      <h2> Structure basique d'un document HTML</h2>
-       <p> <pre>
+       <p> Les méthadonnées d'HTML5 :
+         <pre>
           <strong>&lt;!DOCTYPE html&gt;</strong> "Pour indiquer la version de l'HTML"
             <strong>&lt;html&gt;</strong>
               <strong>&lt;head&gt;</strong> "Pour indiquer les instructions"
@@ -39,14 +40,14 @@
                 <strong>&lt;title&gt;</strong>"nom du titre"<strong>&lt;/title&gt;</strong>
               <strong>&lt;/head&gt;</strong>
               <strong>&lt;body&gt;</strong>
-                  "pour le corp du texte"
+                  "pour le corps du texte"
               <strong>&lt;/body&gt;</strong>
             <strong>&lt;/html&gt;</strong>
           </pre> </p>
      </article>
      <article id="structurerdoc">
      <h2> Structurer son document HTML</h2>
-     Balises permettant la structure du documents :
+     Les balises permettant la structure du document :
      <ul>
        <li><strong>&lt;header&gt; &lt;/header&gt;</strong> : pour le contenu de la page. Peut contenir un logo ou peut aider à la navigation.</li>
        <li><strong>&lt;nav&gt; &lt;/nav&gt;</strong> : contient des liens permettant d'accéder à une section précise d'une page.</li>
@@ -57,37 +58,38 @@
     </ul>
     </article>
     <article id=exbalise>
-     <h2> Exemple de balises</h2>
+     <h2> Exemples de balises</h2>
     <ul>
      <li><strong>&lt;strong&gt;Gras&lt;/strong&gt;</strong></li>
      <li><strong>&lt;mark&gt;</strong><mark>Surlignage</mark><strong>&lt;/mark&gt;</strong></li>
-     <li><strong>&lt;em&gt;</strong><em>Italique</em><strong>&lt;/<em></em>&gt;</strong></li>
+     <li><strong>&lt;em&gt;</strong><em>Italique</em><strong>&lt;/em&gt;</em></strong></li>
      <li><strong>&lt;h1&gt;</strong>Titre 1<strong>&lt;/h1&gt;</strong>, <strong>&lt;h2&gt;</strong>Sous-titre 2<strong>&lt;/h2&gt;</strong>
        ......jusqu'à......<strong>&lt;h6&gt;</strong>Sous-titre 6<strong>&lt;/h6&gt;</strong></li>
-     <li>Pour écrire les &lt; et &gt; : "& l t" (sans espace) pour &lt; et "& g t" (sans espace) pour &gt;</li>
+     <li>Pour écrire les <strong>&lt;</strong> et <strong>&gt;</strong> : "&amp;lt" pour <strong>&lt;</strong> et "&amp;gt" pour <strong>&gt;</strong></li>
      <li>Pour garder la même mise en forme que sur le script :
        <p><strong>&lt;pre&gt;</strong></p>
        <p><strong>&lt;code&gt;</strong></p>
        <p><strong>&lt;/code&gt;</strong></p>
-       <p><strong>&lt;/pre&gt;</strong></p>
+       <p><strong>&lt;/pre&gt;</strong></p></li>
 
-     <li>&lt;ol&gt;Liste ordonnée :
+     <li><strong>&lt;ol&gt;</strong> Liste ordonnée :
        <p><strong>&lt;li&gt;</strong> Liste 1 <strong>&lt;/li&gt;</strong></p>
        <p><strong>&lt;li&gt;</strong> Liste 2 <strong>&lt;/li&gt;</strong></p>
-       <p><strong>&lt;/ol&gt;</strong></p>
+       <p><strong>&lt;/ol&gt;</strong></p></li>
 
-     <li>&lt;ul&gt;Liste désordonnée :
+     <li><strong>&lt;ul&gt;</strong> Liste désordonnée :
          <p><strong>&lt;li&gt;</strong> Liste 1 <strong>&lt;/li&gt;</strong></p>
          <p><strong>&lt;li&gt;</strong> Liste 2 <strong>&lt;/li&gt;</strong></p>
-         <p><strong>&lt;/ul&gt;</strong></p>
+         <p><strong>&lt;/ul&gt;</strong></p></li>
 
-     <li>&lt;dd&gt;Liste définition :
+     <li><strong>&lt;dd&gt;</strong> Liste définition :
          <p><strong>&lt;li&gt;</strong> Liste 1 <strong>&lt;/li&gt;</strong></p>
          <p><strong>&lt;li&gt;</strong> Liste 2 <strong>&lt;/li&gt;</strong></p>
-         <p><strong>&lt;/dd&gt;</strong></p>
+         <p><strong>&lt;/dd&gt;</strong></p></li>
+
      <li>Pour créer un lien qui renvoie à une partie du document :
          <p><strong>&lt;li&gt; &lt;a href = "#exemple"&gt; &lt;Lienexemple &lt;/a&gt;</strong></p>
-         <p><strong>&lt;article id = "exemple"&gt;</strong></p>
+         <p><strong>&lt;article id = "exemple"&gt;</strong></p></li>
    </ul>
    </article>
    <footer> <em>© 2017 All rights reserved.</em></footer>
