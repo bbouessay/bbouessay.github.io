@@ -2,55 +2,94 @@
   <html>
     <head>
 	 <meta charset="utf-8" />
-      <title> Hello World </title>
+      <title> Formation HTML5 </title>
     </head>
    <body>
-	   <h1> Résumé HTML5 </h1>
-     <p>Le HTML (HyperText Markup Language) sert à struturer le contenu sites. Le HTML5 est la dernière version de HTML. Cette version a été finalisée en octobre 2014 par le W3C.</p>
-     <p>Certains navigateurs ne supportent pas toutes les fonctionnalités par le HTML5. Afin d'obtenir plus d'information, il est possible d'aller sur le site http://caniuse.com.</p>
-     <p>Les balises fonctionnent avec des chevrons (" &lt " et " &gt "). Exemple : &ltExemple&gt Texte &lt/Exemple&gt.</p>
-     <h2> Structure minimale d'un document HTML</h2>
+     <header>
+       <h1> Initiation au HTML5 </h1>
+       <img src="HTML.jpg">
+       <a href="https://www.google.fr/search?q=html&safe=off&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjd-bia2_jSAhVKcBoKHQEECgYQ_AUIBigB&biw=1536&bih=759&dpr=1.25#imgrc=3ZsE7FjHf8n_eM:">Source</a>
+     </header>
+     <nav>
+       <p><strong>Contenu de la page :</strong></p>
+       <p><a href="#introduction">Introduction</a></p>
+       <p><a href="#structurebasique">Structure basique d'un document HTML</a></p>
+       <p><a href="#structurerdoc">Structurer son document</a></p>
+       <p><a href="#exbalise">Exemples de balises</a></p>
+     </nav>
+     <aside>
+       <p><strong>Glossaire :</strong></p>
+     </aside>
+     <article id="introduction">
+     <h2> Introduction</h2>
+     <p>Le HTML (HyperText Markup Language) a été créé en 1991 et sert à struturer sémentiquement le contenu du document web.</p>
+     <p>Les langages HTML et CSS sont utilisés dans tous les projets de développement web car les navigateurs utilisent ce code afin d'afficher les pages web.</p>
+     <p>Le HTML5 est la dernière version de HTML. Cette version a été finalisé en octobre 2014 par le W3C.</p>
+     <p>Certains navigateurs ne supportent pas toutes les fonctionnalités par le HTML5. Afin d'obtenir plus d'information, il est possible d'aller sur le site <a href="http://caniuse.com">CanIUse</a>.</p>
+     <p>Les balises fonctionnent avec des chevrons (" <strong>&lt;</strong> " et " <strong>&gt;</strong> "). Exemple : <strong>&lt;Exemple&gt;</strong> Texte <strong>&lt;/Exemple&gt;</strong>.</p>
+     <p>Les balises sémantiques servent à regrouper les éléments en groupes ordonnés.</p>
+     </article>
+     <article id="structurebasique">
+     <h2> Structure basique d'un document HTML</h2>
        <p> <pre>
-          <strong>&lt!DOCTYPE html&gt</strong> "Pour indiquer la version de l'HTML"
-            <strong>&lthtml&gt</strong>
-              <strong>&lthead&gt</strong> "Pour indiquer les instructions"
-              <strong>&ltmeta charset="utf-8" /&gt</strong> "Pour indiquer le jeu d'encodage"
-                <strong>&lttitle&gt</strong>"nom du titre"<strong>&lt/title&gt</strong>
-              <strong>&lt/head&gt</strong>
-              <strong>&ltbody&gt</strong>
+          <strong>&lt;!DOCTYPE html&gt;</strong> "Pour indiquer la version de l'HTML"
+            <strong>&lt;html&gt;</strong>
+              <strong>&lt;head&gt;</strong> "Pour indiquer les instructions"
+              <strong>&lt;meta charset="utf-8" /&gt;</strong> "Pour indiquer le jeu d'encodage"
+                <strong>&lt;title&gt;</strong>"nom du titre"<strong>&lt;/title&gt;</strong>
+              <strong>&lt;/head&gt;</strong>
+              <strong>&lt;body&gt;</strong>
                   "pour le corp du texte"
-              <strong>&lt/body&gt</strong>
-            <strong>&lt/html&gt</strong>
+              <strong>&lt;/body&gt;</strong>
+            <strong>&lt;/html&gt;</strong>
           </pre> </p>
-
+     </article>
+     <article id="structurerdoc">
+     <h2> Structurer son document HTML</h2>
+     Balises permettant la structure du documents :
+     <ul>
+       <li><strong>&lt;header&gt; &lt;/header&gt;</strong> : pour le contenu de la page. Peut contenir un logo ou peut aider à la navigation.</li>
+       <li><strong>&lt;nav&gt; &lt;/nav&gt;</strong> : contient des liens permettant d'accéder à une section précise d'une page.</li>
+       <li><strong>&lt;section&gt; &lt;/section&gt;</strong> : regroupe les paragraphes d'un même thème.</li>
+       <li><strong>&lt;article&gt; &lt;/article&gt;</strong> : contenu autonome de la page.</li>
+       <li><strong>&lt;aside&gt; &lt;/aside&gt;</strong> : contenu qui n'est pas lié directement à la page (Ex: glossaire, publicité...).</li>
+       <li><strong>&lt;footer&gt; &lt;/footer&gt;</strong> : pied de page de la section.</li>
+    </ul>
+    </article>
+    <article id=exbalise>
      <h2> Exemple de balises</h2>
     <ul>
-     <li>&ltstrong&gt<strong>Gras</strong>&lt/strong&gt</li>
-     <li>&ltmark&gt<mark>Surlignage</mark>&lt/mark&gt</li>
-     <li>&ltem&gt<em>Italique</em>&lt/em&gt</li>
-     <li>&lth1&gtTitre 1&lt/h1&gt, &lth2&gtSous-titre 2&lt/h2&gt......jusqu'à......&lth6&gtSous-titre 6&lt/h6&gt</li>
-     <li>Pour écrire les &lt et &gt : "& l t" (sans espace) pour &lt et "& g t" (sans espace) pour &gt</li>
+     <li><strong>&lt;strong&gt;Gras&lt;/strong&gt;</strong></li>
+     <li><strong>&lt;mark&gt;</strong><mark>Surlignage</mark><strong>&lt;/mark&gt;</strong></li>
+     <li><strong>&lt;em&gt;</strong><em>Italique</em><strong>&lt;/<em></em>&gt;</strong></li>
+     <li><strong>&lt;h1&gt;</strong>Titre 1<strong>&lt;/h1&gt;</strong>, <strong>&lt;h2&gt;</strong>Sous-titre 2<strong>&lt;/h2&gt;</strong>
+       ......jusqu'à......<strong>&lt;h6&gt;</strong>Sous-titre 6<strong>&lt;/h6&gt;</strong></li>
+     <li>Pour écrire les &lt; et &gt; : "& l t" (sans espace) pour &lt; et "& g t" (sans espace) pour &gt;</li>
      <li>Pour garder la même mise en forme que sur le script :
-       <p>&ltpre&gt</p>
-       <p>&ltcode&gt</p>
-       <p>&lt/code&gt</p>
-       <p>&lt/pre&gt</p>
+       <p><strong>&lt;pre&gt;</strong></p>
+       <p><strong>&lt;code&gt;</strong></p>
+       <p><strong>&lt;/code&gt;</strong></p>
+       <p><strong>&lt;/pre&gt;</strong></p>
 
-     <li>&ltol&gtListe ordonnée :
-       <p>&ltli&gt Liste 1 &lt/li&gt</p>
-       <p>&ltli&gt Liste 2 &lt/li&gt</p>
-       <p>&lt/ol&gt</p>
+     <li>&lt;ol&gt;Liste ordonnée :
+       <p><strong>&lt;li&gt;</strong> Liste 1 <strong>&lt;/li&gt;</strong></p>
+       <p><strong>&lt;li&gt;</strong> Liste 2 <strong>&lt;/li&gt;</strong></p>
+       <p><strong>&lt;/ol&gt;</strong></p>
 
-     <li>&ltul&gtListe désordonnée :
-         <p>&ltli&gt Liste 1 &lt/li&gt</p>
-         <p>&ltli&gt Liste 2 &lt/li&gt</p>
-         <p>&lt/ul&gt</p>
+     <li>&lt;ul&gt;Liste désordonnée :
+         <p><strong>&lt;li&gt;</strong> Liste 1 <strong>&lt;/li&gt;</strong></p>
+         <p><strong>&lt;li&gt;</strong> Liste 2 <strong>&lt;/li&gt;</strong></p>
+         <p><strong>&lt;/ul&gt;</strong></p>
 
-     <li>&ltdd&gtListe définition :
-         <p>&ltli&gt Liste 1 &lt/li&gt</p>
-         <p>&ltli&gt Liste 2 &lt/li&gt</p>
-         <p>&lt/dd&gt</p>
-
+     <li>&lt;dd&gt;Liste définition :
+         <p><strong>&lt;li&gt;</strong> Liste 1 <strong>&lt;/li&gt;</strong></p>
+         <p><strong>&lt;li&gt;</strong> Liste 2 <strong>&lt;/li&gt;</strong></p>
+         <p><strong>&lt;/dd&gt;</strong></p>
+     <li>Pour créer un lien qui renvoie à une partie du document :
+         <p><strong>&lt;li&gt; &lt;a href = "#exemple"&gt; &lt;Lienexemple &lt;/a&gt;</strong></p>
+         <p><strong>&lt;article id = "exemple"&gt;</strong></p>
    </ul>
+   </article>
+   <footer> <em>© 2017 All rights reserved.</em></footer>
    </body>
  </html>
