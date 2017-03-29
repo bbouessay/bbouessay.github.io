@@ -2,6 +2,7 @@ body
 {
   background-color: #F5F5F5;
   font-family: Comic Sans MS ;
+  color: #000080;
 }
 
 .blocimage{
@@ -9,7 +10,8 @@ body
   height: 200px;
   width:  200px;
   position: absolute;
-  font-size: 10px;
+  font-size: 8px;
+  text-align: center;
 }
 .ImageHTML{
   max-width: 100%;
@@ -22,7 +24,8 @@ body
   position: absolute;
   left: 1200px;
   text-align: left;
-  font-size: 10px;
+  font-size: 8px;
+  text-align: center;
 }
 .ImageHTML2{
   max-width: 100%;
@@ -32,6 +35,7 @@ body
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+  color: black;
 }
 .classindex{
   position: fixed;
@@ -56,8 +60,8 @@ body
 
 .blocimage3{
   display: block;
-  height: 600px;
-  width:  600px;
+  height: 700px;
+  width:  700px;
 }
 .Schema{
   max-width: 100%;
