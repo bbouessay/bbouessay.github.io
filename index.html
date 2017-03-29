@@ -3,15 +3,23 @@
     <head>
       <meta charset="utf-8" />
       <title> Formation HTML5 </title>
+      <link rel="stylesheet" type="text/css" href="Style.css">
     </head>
     <body>
       <header>
-        <h1> Initiation au HTML5 </h1>
-        <img src="HTML.jpg" alt="Image HTML">
+        <div class="blocimage">
+        <img src="HTML.jpg" alt="Image HTML" class="ImageHTML">
         <a href="https://www.google.fr/search?q=html&safe=off&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjd-bia2_jSAhVKcBoKHQEECgYQ_AUIBigB&biw=1536&bih=759&dpr=1.25#imgrc=3ZsE7FjHf8n_eM:">Source</a>
+        </div>
+        <div class="blocimage2">
+        <img src="HTML.jpg" alt="Image HTML2" class="ImageHTML2">
+        <a href="https://www.google.fr/search?q=html&safe=off&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjd-bia2_jSAhVKcBoKHQEECgYQ_AUIBigB&biw=1536&bih=759&dpr=1.25#imgrc=3ZsE7FjHf8n_eM:">Source</a>
+        </div>
+        <span class="titre1">
+          <h1> Initiation au HTML5 </h1>
+        </span>
      </header>
-     <nav>
-       <p><strong>Index :</strong></p>
+     <nav class="classindex">
        <p><a href="#introduction">Introduction</a></p>
        <p><a href="#structurebasique">Structure basique d'un document HTML</a></p>
        <p><a href="#structurerdoc">Structurer son document</a></p>
@@ -21,7 +29,8 @@
      <aside>
        <p><strong>Glossaire :</strong></p>
      </aside>
-
+     <div class="bloctexte">
+     <div class="texte">
      <article id="introduction">
        <h2> Introduction</h2>
        <p>Le HTML (HyperText Markup Language) a été créé en 1991 et sert à struturer sémentiquement le contenu du document web.</p>
@@ -52,6 +61,9 @@
      <article id="structurerdoc">
       <h2> Structurer son document HTML</h2>
       <p>Les balises permettant la structure du document :</p>
+      <div class="blocimage3">
+      <img src="Schema.png" alt="Image structure document HTML" class="Schema">
+      </div>
          <ul>
            <li><strong>&lt;header&gt; &lt;/header&gt;</strong> : pour le contenu de la page. Peut contenir un logo ou peut aider à la navigation;</li>
            <li><strong>&lt;nav&gt; &lt;/nav&gt;</strong> : contient des liens permettant d'accéder à une section précise d'une page;</li>
@@ -77,7 +89,7 @@
           <td>D</td>
         </tr>
     </table>
-    
+
     <p>En HTML ce tableau s'écrit :</p>
     <pre>
       &lt;table&gt;
@@ -195,5 +207,7 @@
      </ul>
    </article>
    <footer> <em>© 2017 All rights reserved.</em></footer>
+   </div>
+ </div>
   </body>
 </html>

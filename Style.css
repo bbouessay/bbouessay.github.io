@@ -1,0 +1,65 @@
+body
+{
+  background-color: #F5F5F5;
+  font-family: Comic Sans MS ;
+}
+
+.blocimage{
+  display: block;
+  height: 200px;
+  width:  200px;
+  position: absolute;
+  font-size: 10px;
+}
+.ImageHTML{
+  max-width: 100%;
+  max-height: 100%;
+}
+.blocimage2{
+  display: block;
+  height: 200px;
+  width:  200px;
+  position: absolute;
+  left: 1200px;
+  text-align: left;
+  font-size: 10px;
+}
+.ImageHTML2{
+  max-width: 100%;
+  max-height: 100%;
+}
+.titre1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.classindex{
+  position: fixed;
+  left: 0;
+  top: 35%;
+  width: 8em;
+  margin-top: -2.5em;
+  text-align: left;
+  font-size: 25px;
+}
+.bloctexte{
+  background-color: white;
+  position: relative;
+  top: 0px;
+  left: 190px;
+  display: block;
+  width:  1000px;
+}
+.texte{
+  max-width: 100%;
+}
+
+.blocimage3{
+  display: block;
+  height: 600px;
+  width:  600px;
+}
+.Schema{
+  max-width: 100%;
+  max-height: 100%;
+}
