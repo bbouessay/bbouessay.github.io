@@ -1,8 +1,8 @@
 body
 {
-  background-color: #F5F5F5;
-  font-family: Comic Sans MS ;
-  color: #000080;
+  background-color: #F0FFF0;
+  font-family: Verdana, sans-serif;
+  color: #003399;
 }
 
 .blocimage{
@@ -12,6 +12,7 @@ body
   position: absolute;
   font-size: 8px;
   text-align: center;
+  top:2%;
 }
 .ImageHTML{
   max-width: 100%;
@@ -22,10 +23,11 @@ body
   height: 200px;
   width:  200px;
   position: absolute;
-  left: 1200px;
+  left: 165em;
   text-align: left;
   font-size: 8px;
   text-align: center;
+  top:2%;
 }
 .ImageHTML2{
   max-width: 100%;
@@ -33,37 +35,119 @@ body
 }
 .titre1{
   text-align: center;
-  font-size: 30px;
+  font-size: 200%;
   font-weight: bold;
   color: black;
+}
+
+.cadre {
+  position: fixed;
+  display:inline-block;
+  top: 35%;
+  height: 50%;
+  width: 100%;
+  margin-top: -2.5em;
+  font-size: 100%;
+  color::#ADD8E6;
+  border-radius: 50px;
 }
 .classindex{
   position: fixed;
   left: 0;
-  top: 35%;
-  width: 8em;
-  margin-top: -2.5em;
+  top: 30%;
+  width: 9em;
+  margin-top: -4em;
   text-align: left;
-  font-size: 25px;
+  font-size: 90%;
+  font-weight: bold;
+}
+.blocimage3{
+  position: fixed;
+  height: 30em;
+  width:  28em;
+  left: 166em;
+  top: 10%;
+  margin-top: 21em;
+  text-align: left;
+  font-size: 8px;
+  text-align: center;
+  top:2%;
+}
+.ImageHTML3{
+  max-width: 100%;
+  max-height: 100%;
+}
+.blocimage4{
+  position: fixed;
+  height: 30em;
+  width:  29em;
+  left: 166em;
+  top: 10%;
+  margin-top: 53em;
+  text-align: left;
+  font-size: 8px;
+  text-align: center;
+  top:2%;
+}
+.ImageCSS{
+  max-width: 100%;
+  max-height: 100%;
 }
 .bloctexte{
   background-color: white;
   position: relative;
-  top: 0px;
-  left: 190px;
+  margin-top: 5em;
+  left: 10em;
   display: block;
-  width:  1000px;
+  width:  80%;
+  top: 20%;
+  text-align: justify;
 }
 .texte{
   max-width: 100%;
 }
 
-.blocimage3{
+.blocimage5{
   display: block;
-  height: 700px;
-  width:  700px;
+  height: 20em;
+  width:  40em;
+  position: relative;
+  left: 10%;
 }
+
+.positiontableau{
+    display: block;
+    position: relative;
+    left: 100px;
+    font-size: 1.5em;
+
+}
+.augmtexte{
+  font-size: 16px;
+  background-color:Black;
+  color: white;
+}
+
 .Schema{
   max-width: 100%;
   max-height: 100%;
+}
+.blocimage6{
+  display: block;
+  height: 50px;
+  width:  50px;
+  position: absolute;
+  top: : 50em;
+  opacity: 0.9;
+  left:33%;
+}
+.Imagefleche{
+  max-width: 100%;
+  max-height: 100%;
+}
+.textefleche{
+  position: relative;
+  font-size: 150%;
+  bottom: : 50em;
+  left: 38%;
 }
