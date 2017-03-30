@@ -55,7 +55,7 @@ body
   position: fixed;
   left: 0;
   top: 30%;
-  width: 9em;
+  width: 10em;
   margin-top: -4em;
   text-align: left;
   font-size: 90%;
@@ -96,8 +96,8 @@ body
 .bloctexte{
   background-color: white;
   position: relative;
-  margin-top: 5em;
-  left: 10em;
+  margin-top: 4em;
+  left: 9em;
   display: block;
   width:  80%;
   top: 20%;
