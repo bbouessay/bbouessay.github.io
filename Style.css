@@ -2,6 +2,7 @@ body {
     background-color: #F0FFF0;
     font-family: Verdana, sans-serif;
     color: #003399;
+    Line-Height: 2;
 }
 
 .blocimage {
@@ -14,7 +15,7 @@ body {
     top: 2%;
 }
 
-.ImageHTML {
+.Image {
     max-width: 100%;
     max-height: 100%;
 }
@@ -31,87 +32,88 @@ body {
     top: 2%;
 }
 
-.ImageHTML2 {
-    max-width: 100%;
-    max-height: 100%;
-}
 
 .titre1 {
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
     font-weight: bold;
     color: black;
+    position: relative;
+    top: 50px;
 }
 
 .classindex {
+    height: 500px;
+    width:  184px;
+    display: block;
     position: fixed;
-    left: 0;
-    top: 32%;
-    width: 10em;
+    border-width:2px;
+    border-radius: 10px;
+    left: 10px;
+    top: 34%;
+    background-color: #84815B;
+    padding: 5px;
     margin-top: -4em;
     text-align: left;
-    font-size: 90%;
     font-weight: bold;
+    Line-Height: 1.5;
 }
 
 .stylelien {
+    font-size: 90%;
     text-decoration: none;
-    color: #787746;
+    color: white;
 }
+.stylelien:hover{
+  color: black;
+  background-color: #CCCCCC;
+}
+.stylelien:active{
 
-.stylelien:visited {
-    color: #4C1B1B;
 }
 
 .blocimage3 {
     position: fixed;
-    height: 30em;
-    width: 28em;
-    left: 166em;
-    top: 10%;
-    margin-top: 21em;
+    height: 28em;
+    width: 18em;
+    left: 174em;
+    top: 39%;
+    margin-top: 2em;
     text-align: left;
     font-size: 8px;
     text-align: center;
-    top: 2%;
-}
-
-.ImageHTML3 {
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .blocimage4 {
     position: fixed;
-    height: 30em;
-    width: 29em;
-    left: 166em;
+    height: 28em;
+    width: 18em;
+    left: 174em;
     top: 10%;
     margin-top: 53em;
     text-align: left;
     font-size: 8px;
     text-align: center;
-    top: 2%;
-}
-
-.ImageCSS {
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .bloctexte {
     background-color: white;
-    position: relative;
     margin-top: 4em;
-    left: 9em;
+    left: 13em;
     display: block;
     width: 1200px;
-    top: 20%;
+    position: relative;
+    top: 1em;
     text-align: justify;
 }
 
 .texte {
     max-width: 100%;
+}
+.titre2 {
+  font-size: 30px;
+  font-weight: bold;
+  Line-Height: 3;
 }
 
 .blocimage5 {
@@ -126,18 +128,19 @@ body {
     display: block;
     position: relative;
     left: 100px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .augmtexte {
-    font-size: 16px;
+    font-size: 14px;
     background-color: Black;
     color: white;
 }
 
-.Schema {
-    max-width: 100%;
-    max-height: 100%;
+.titre3{
+    font-size: 20px;
+    font-weight: bold;
+    Line-Height: 2.5;
 }
 
 .blocimage6 {
@@ -148,6 +151,15 @@ body {
     top: : 50em;
     opacity: 0.9;
     left: 33%;
+}
+.formulaire{
+  display: block;
+  width: 250px;
+}
+.textformulaire{
+  display: block;
+  font-weight: bold;
+  width: 500px;
 }
 
 .Imagefleche {
