@@ -1,4 +1,13 @@
+html {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
+    justify-content:space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
     background-color: #F0FFF0;
     font-family: Verdana, sans-serif;
     color: #003399;
@@ -10,8 +19,7 @@ h1 {
     font-size: 300%;
     font-weight: bold;
     color: black;
-    position: relative;
-    top: 50px;
+    display: inline-block;
 }
 
 h2 {
@@ -24,14 +32,17 @@ h3{
     font-weight: bold;
     Line-Height: 2.5;
 }
+
+.header{
+  justify-content:space-between;
+  flex-direction: row;
+
+}
 .blocimage {
-    display: block;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    font-size: 8px;
-    text-align: center;
-    top: 2%;
+    display: inline-block;
+    margin:0;
+    height: 20%;
+    width: 10%;
 }
 
 .Image {
@@ -40,32 +51,32 @@ h3{
 }
 
 .blocimage2 {
-    display: block;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 165em;
-    text-align: left;
-    font-size: 8px;
-    text-align: center;
-    top: 2%;
+    display: inline-block;
+    height: 90%;
+    width: 10%;
+    flex-wrap: wrap;
+}
+.contenu{
+  flex-direction: row;
+  width: 80%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-basis: auto;
 }
 
 .classindex {
     height: 475px;
     width:  190px;
-    display: block;
-    position: fixed;
     border-width:2px;
     border-radius: 20px;
-    left: 3px;
-    top: 34%;
     background-color: #696969;
     padding: 5px;
-    margin-top: -4em;
+    margin-top: 4em;
     text-align: left;
     font-weight: bold;
     Line-Height: 1.5;
+    order: -1;
+    flex-basis: auto;
 }
 
 .stylelien {
@@ -79,7 +90,7 @@ h3{
 }
 
 .blocimage3 {
-    position: fixed;
+    flex-direction: row;
     height: 28em;
     width: 18em;
     left: 174em;
@@ -88,10 +99,10 @@ h3{
     text-align: left;
     font-size: 8px;
     text-align: center;
+    flex-basis: auto;
 }
 
 .blocimage4 {
-    position: fixed;
     height: 28em;
     width: 18em;
     left: 174em;
@@ -100,17 +111,18 @@ h3{
     text-align: left;
     font-size: 8px;
     text-align: center;
+    flex-basis: auto;
 }
 
 .bloctexte {
+    flex-direction: column;
+    flex: 1;
     background-color: white;
     margin-top: 4em;
     left: 13em;
-    display: block;
-    width: 1200px;
-    position: relative;
     top: 1em;
     text-align: justify;
+    margin-left: 1.5vh;
 }
 
 .texte {
@@ -150,7 +162,6 @@ h3{
   width: 500px;
 }
 .blocimage6 {
-    display: block;
     height: 50px;
     width: 50px;
     position: absolute;
@@ -160,9 +171,9 @@ h3{
     animation: bounce 0.7s ease infinite;
 }
 @keyframes bounce{
-  from {top: 590em;}
-  50%  {top: 589em;}
-  to   {top: 590em;
+  from {top: 1200vh;}
+  50%  {top: 1199vh;}
+  to   {top: 1200vh;}
 }
 
 .Imagefleche {
@@ -171,7 +182,7 @@ h3{
 }
 
 .textefleche {
-    position: relative;
+    flex-direction: row;
     font-size: 150%;
     bottom: 50em;
     left: 50%;
