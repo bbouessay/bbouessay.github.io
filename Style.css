@@ -7,11 +7,12 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 300%;
+    font-size: 460%;
     font-weight: bold;
-    color: black;
+    color: #FF8C00;
     position: relative;
     top: 50px;
+    font-family:"Segoe print", Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -52,7 +53,7 @@ h3{
 }
 
 .classindex {
-    height: 475px;
+    height: 505px;
     width:  190px;
     display: block;
     position: fixed;
@@ -156,13 +157,13 @@ h3{
     position: absolute;
     top: 50em;
     opacity: 0.9;
-    left: 21%;
+    left: 25%;
     animation: bounce 0.7s ease infinite;
 }
 @keyframes bounce{
-  from {top: 590em;}
-  50%  {top: 589em;}
-  to   {top: 590em;
+  from {top: 98.5%;}
+  50%  {top: 98.4%;}
+  to   {top: 98.5%;}
 }
 
 .Imagefleche {
@@ -173,6 +174,6 @@ h3{
 .textefleche {
     position: relative;
     font-size: 150%;
-    bottom: 50em;
-    left: 50%;
+    bottom: 10%;
+    left: 30%;
 }

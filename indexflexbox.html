@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>HTML5/CSS3 </title>
     <link rel="stylesheet" type="text/css" href="resetstyle.css">
     <link rel="stylesheet" type="text/css" href="Styleflexbox.css">
     <link rel="icon" href="Favicone.ico" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="blocimage">
-            <img src="HTML5_Logo_512.png" alt="Image HTML" class="Image">
-        </div>
-        <h1 id="titre1"> Initiation au HTML5 et CSS3</h1>
-        <div class="blocimage2">
-            <img src="css3_logo.png" alt="Image HTML2" class="Image">
-        </div>
+      <div class="blocimage">
+      <img src="HTML5_Logo_512.png" alt="Image HTML" class="Image" />
+      </div>
+      <h1 id="titre1"> Initiation au HTML5 et CSS3</h1>
+      <div class="blocimage2">
+        <img src="css3_logo.png" alt="Image HTML2" class="Image" />
+      </div>
     </header>
     <div class="contenu">
-
-    <nav class="classindex">
+      <nav class="classindex">
         <p><a href="#titre1" class="stylelien">Accueil</a></p>
         <p><a href="#introductionHTML" class="stylelien">1.1 Introduction au HTML5</a></p>
         <p><a href="#structurebasiqueHTML" class="stylelien">1.2 Structure basique d'un document HTML5</a></p>
@@ -35,24 +34,25 @@
         <p><a href="#formulaires" class="stylelien">3.1 Les formulaires</a></p>
         <p><a href="#exbaliseform" class="stylelien">3.2 Exemples de balises formulaires</a></p>
         <p><a href="#exform" class="stylelien">3.3 Exemples de formulaire</a></p>
-    </nav>
-    <div class="bloctexte">
+        <p><a href="page2.html" class="stylelien">Remerciements</a></p>
+      </nav>
+      <div class="bloctexte">
         <div class="texte">
-            <article id="introductionHTML">
-                <h2> 1.1 Introduction au HTML5</h2>
-                <p>Le HTML (HyperText Markup Language) a été créé en 1991 et sert à struturer sémentiquement le contenu du document web.</p>
-                <p>Les langages HTML et CSS sont utilisés dans tous les projets de développement web car les navigateurs utilisent ce code afin d'afficher les pages web.</p>
-                <p>Le HTML5 est la dernière version de HTML. Cette version a été finalisé en octobre 2014 par le W3C.</p>
-                <p>Certains navigateurs ne supportent pas toutes les fonctionnalités par le HTML5. Afin d'obtenir plus d'information, il est possible d'aller sur le site <a href="http://caniuse.com">CanIUse</a>.</p>
-                <p>Les balises fonctionnent avec des chevrons (" &lt; " et " &gt; "). Exemple : &lt;Exemple&gt; Texte &lt;/Exemple&gt; ou balise auto fermante &lt;metacharset="utf-8" /&gt;.</p>
-                <p>Les balises sémantiques servent à regrouper les éléments en groupes ordonnés.</p>
-            </article>
+          <article id="introductionHTML">
+            <h2> 1.1 Introduction au HTML5</h2>
+            <p>Le HTML (HyperText Markup Language) a été créé en 1991 et sert à struturer sémentiquement le contenu du document web.</p>
+            <p>Les langages HTML et CSS sont utilisés dans tous les projets de développement web car les navigateurs utilisent ce code afin d'afficher les pages web.</p>
+            <p>Le HTML5 est la dernière version de HTML. Cette version a été finalisé en octobre 2014 par le W3C.</p>
+            <p>Certains navigateurs ne supportent pas toutes les fonctionnalités par le HTML5. Afin d'obtenir plus d'information, il est possible d'aller sur le site <a href="http://caniuse.com">CanIUse</a>.</p>
+            <p>Les balises fonctionnent avec des chevrons (" &lt; " et " &gt; "). Exemple : &lt;Exemple&gt; Texte &lt;/Exemple&gt; ou balise auto fermante &lt;metacharset="utf-8" /&gt;.</p>
+            <p>Les balises sémantiques servent à regrouper les éléments en groupes ordonnés.</p>
+          </article>
 
-            <article id="structurebasiqueHTML">
-                <h2> 1.2 Structure basique d'un document HTML5</h2>
-                <p> Les méthadonnées d'HTML5 :</p>
-                <div class="augmtexte">
-                    <pre>
+          <article id="structurebasiqueHTML">
+            <h2> 1.2 Structure basique d'un document HTML5</h2>
+            <p> Les méthadonnées d'HTML5 :</p>
+            <div class="augmtexte">
+              <pre>
            &lt;!DOCTYPE html&gt; "Pour indiquer la version de l'HTML"
                &lt;html&gt;
                  &lt;head&gt; "Pour indiquer les instructions"
@@ -63,46 +63,46 @@
                   "pour le corps du texte"
                &lt;/body&gt;
             &lt;/html&gt;
-          </pre>
-                </div>
-            </article>
+              </pre>
+            </div>
+          </article>
 
-            <article id="structurerdocHTML">
-                <h2> 1.3 Structurer son document HTML5</h2>
-                <p>Les balises permettant la structure du document :</p>
-                <div class="blocimage5">
-                    <img src="Schema.png" alt="Image structure document HTML" class="Image">
-                </div>
-                <ul>
-                    <li>&lt;header&gt; &lt;/header&gt; : pour le contenu de la page. Peut contenir un logo ou peut aider à la navigation;</li>
-                    <li>&lt;nav&gt; &lt;/nav&gt; : contient des liens permettant d'accéder à une section précise d'une page;</li>
-                    <li>&lt;section&gt; &lt;/section&gt; : regroupe les paragraphes d'un même thème;</li>
-                    <li>&lt;article&gt; &lt;/article&gt; : contenu autonome de la page;</li>
-                    <li>&lt;aside&gt; &lt;/aside&gt; : contenu qui n'est pas lié directement à la page (Ex: glossaire, publicité...);</li>
-                    <li>&lt;footer&gt; &lt;/footer&gt; : pied de page de la section.</li>
-                </ul>
+          <article id="structurerdocHTML">
+            <h2> 1.3 Structurer son document HTML5</h2>
+            <p>Les balises permettant la structure du document :</p>
+              <div class="blocimage5">
+                <img src="Schema.png" alt="Image structure document HTML" class="Image" />
+              </div>
+              <ul>
+                <li>&lt;header&gt; &lt;/header&gt; : pour le contenu de la page. Peut contenir un logo ou peut aider à la navigation;</li>
+                <li>&lt;nav&gt; &lt;/nav&gt; : contient des liens permettant d'accéder à une section précise d'une page;</li>
+                <li>&lt;section&gt; &lt;/section&gt; : regroupe les paragraphes d'un même thème;</li>
+                <li>&lt;article&gt; &lt;/article&gt; : contenu autonome de la page;</li>
+                <li>&lt;aside&gt; &lt;/aside&gt; : contenu qui n'est pas lié directement à la page (Ex: glossaire, publicité...);</li>
+                <li>&lt;footer&gt; &lt;/footer&gt; : pied de page de la section.</li>
+              </ul>
             </article>
 
             <article id="tableauxHTML">
-                <h2> 1.4 Les tableaux HTML5</h2>
-                <p>En HTML un tableau est un ensemble de lignes contenant des cellules.</p>
-                <p>C'est l'emplilement de ses lignes qui forme le tableau ; il n'y a pas de colonnes.</p>
-                <p>Exemple d'un tableau :</p>
-                <div class="positiontableau">
-                    <table>
-                        <tr>
-                            <td>A</td>
-                            <td>B</td>
-                        </tr>
-                        <tr>
-                            <td>C</td>
-                            <td>D</td>
-                        </tr>
-                    </table>
-                </div>
-                <p>En HTML ce tableau s'écrit :</p>
-                <div class="augmtexte">
-                    <pre>
+              <h2> 1.4 Les tableaux HTML5</h2>
+              <p>En HTML un tableau est un ensemble de lignes contenant des cellules.</p>
+              <p>C'est l'emplilement de ses lignes qui forme le tableau ; il n'y a pas de colonnes.</p>
+              <p>Exemple d'un tableau :</p>
+              <div class="positiontableau">
+                <table>
+                  <tr>
+                    <td>A</td>
+                    <td>B</td>
+                  </tr>
+                  <tr>
+                    <td>C</td>
+                    <td>D</td>
+                  </tr>
+                </table>
+              </div>
+              <p>En HTML ce tableau s'écrit :</p>
+              <div class="augmtexte">
+                <pre>
       &lt;table&gt;
         &lt;tr&gt;
           &lt;td&gt;A&lt;/td&gt;
@@ -113,40 +113,39 @@
           &lt;td&gt;D&lt;/td&gt;
         &lt;/tr&gt;
       &lt;/table&gt;
-    </pre>
-                </div>
+                </pre>
+              </div>
 
-                <p>Pour rajouter un entête et un pied de page :</p>
+              <p>Pour rajouter un entête et un pied de page :</p>
                 <div class="positiontableau">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Nom</th>
-                                <th>Prenom</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Bouessay</td>
-                                <td>Benoit</td>
-                            </tr>
-                            <tr>
-                                <td>Viteri</td>
-                                <td>Susana</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <th>sexe</th>
-                                <th>age
-                                    <th>
-                            </tr>
-                        </tfoot>
-                    </table>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Nom</th>
+                        <th>Prenom</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Bouessay</td>
+                        <td>Benoit</td>
+                      </tr>
+                      <tr>
+                        <td>Viteri</td>
+                        <td>Susana</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <th>sexe</th>
+                        <th>age</th>
+                      </tr>
+                    </tfoot>
+                  </table>
                 </div>
                 <p>En HTML ce tableau s'écrit :</p>
                 <div class="augmtexte">
-                    <pre>
+                  <pre>
       &lt;table&gt;
         &lt;thead&gt;
           &lt;tr&gt;
@@ -171,78 +170,79 @@
           &lt;/tr&gt;
         &lt;/tbody&gt;
       &lt;/table&gt;
-    </pre>
-                </div>
-                <p>Pour fusionner deux cellules de la même ligne : rowspan="2";</p>
-                <p>Pour fusionner deux cellules de la même hauteur : colspan="2";</p>
-                <p>Pour écrire une légende : &lt;caption&gt;legende&lt;/caption&gt; (attention toujours en premier élément du tableau);</p>
-                <p>Pour définir une colonne : &lt;col&gt; (juste après legende);</p>
-                <p>Pour définir un groupe de colonnes : &lt;colgroup&gt;;</p>
+                </pre>
+              </div>
+              <p>Pour fusionner deux cellules de la même ligne : rowspan="2";</p>
+              <p>Pour fusionner deux cellules de la même hauteur : colspan="2";</p>
+              <p>Pour écrire une légende : &lt;caption&gt;legende&lt;/caption&gt; (attention toujours en premier élément du tableau);</p>
+              <p>Pour définir une colonne : &lt;col&gt; (juste après legende);</p>
+              <p>Pour définir un groupe de colonnes : &lt;colgroup&gt;;</p>
             </article>
 
             <article id="exbaliseHTML">
-                <h2> 1.5 Exemples de balises HTML5</h2>
-                <ul>
-                    <li>&lt;strong&gt;Gras&lt;/strong&gt;</li>
-                    <li>&lt;mark&gt;<mark>Surlignage</mark>&lt;/mark&gt;</li>
-                    <li>&lt;em&gt;<em>Italique</em>&lt;/em&gt;</li>
-                    <li>&lt;h1&gt;Titre 1&lt;/h1&gt;, &lt;h2&gt;Sous-titre 2&lt;/h2&gt; ......jusqu'à...... &lt;h6&gt;Sous-titre 6&lt;/h6&gt;</li>
-                    <li>Pour écrire les &lt; et &gt; : "&amp;lt" pour &lt; et "&amp;gt" pour &gt;</li>
-                    <li>Pour garder la même mise en forme que sur le script :
-                        <p>&lt;pre&gt;</p>
-                        <p>&lt;code&gt;</p>
-                        <p>&lt;/code&gt;</p>
-                        <p>&lt;/pre&gt;</p>
-                    </li>
+              <h2> 1.5 Exemples de balises HTML5</h2>
+              <ul>
+                <li>&lt;strong&gt;Gras&lt;/strong&gt;</li>
+                  <li>&lt;mark&gt;<mark>Surlignage</mark>&lt;/mark&gt;</li>
+                  <li>&lt;em&gt;<em>Italique</em>&lt;/em&gt;</li>
+                  <li>&lt;h1&gt;Titre 1&lt;/h1&gt;, &lt;h2&gt;Sous-titre 2&lt;/h2&gt; ......jusqu'à...... &lt;h6&gt;Sous-titre 6&lt;/h6&gt;</li>
+                  <li>Pour écrire les &lt; et &gt; : "&amp;lt" pour &lt; et "&amp;gt" pour &gt;</li>
+                  <li>Pour garder la même mise en forme que sur le script :
+                    <p>&lt;pre&gt;</p>
+                    <p>&lt;code&gt;</p>
+                    <p>&lt;/code&gt;</p>
+                    <p>&lt;/pre&gt;</p>
+                  </li>
 
-                    <li>&lt;ol&gt; Liste ordonnée :
-                        <p>&lt;li&gt; Liste 1 &lt;/li&gt;</p>
-                        <p>&lt;li&gt; Liste 2 &lt;/li&gt;</p>
-                        <p>&lt;/ol&gt;</p>
-                    </li>
+                  <li>&lt;ol&gt; Liste ordonnée :
+                    <p>&lt;li&gt; Liste 1 &lt;/li&gt;</p>
+                    <p>&lt;li&gt; Liste 2 &lt;/li&gt;</p>
+                    <p>&lt;/ol&gt;</p>
+                  </li>
 
-                    <li>&lt;ul&gt; Liste désordonnée :
-                        <p>&lt;li&gt; Liste 1 &lt;/li&gt;</p>
-                        <p>&lt;li&gt; Liste 2 &lt;/li&gt;</p>
-                        <p>&lt;/ul&gt;</p>
-                    </li>
+                  <li>&lt;ul&gt; Liste désordonnée :
+                    <p>&lt;li&gt; Liste 1 &lt;/li&gt;</p>
+                    <p>&lt;li&gt; Liste 2 &lt;/li&gt;</p>
+                    <p>&lt;/ul&gt;</p>
+                  </li>
 
-                    <li>&lt;dd&gt; Liste définition :
-                        <p>&lt;li&gt; Liste 1 &lt;/li&gt;</p>
-                        <p>&lt;li&gt; Liste 2 &lt;/li&gt;</p>
-                        <p>&lt;/dd&gt;</p>
-                    </li>
+                  <li>&lt;dd&gt; Liste définition :
+                    <p>&lt;li&gt; Liste 1 &lt;/li&gt;</p>
+                    <p>&lt;li&gt; Liste 2 &lt;/li&gt;</p>
+                    <p>&lt;/dd&gt;</p>
+                  </li>
 
-                    <li>Pour créer un lien qui renvoie à une partie du document :
-                        <p>&lt;li&gt; &lt;a href = "#exemple"&gt;lienexemple &lt;/a&gt;</p>
-                        <p>&lt;article id = "exemple"&gt;</p>
-                    </li>
+                  <li>Pour créer un lien qui renvoie à une partie du document :
+                    <p>&lt;li&gt; &lt;a href = "#exemple"&gt;lienexemple &lt;/a&gt;</p>
+                    <p>&lt;article id = "exemple"&gt;</p>
+                  </li>
 
-                    <li>Pour créer un lien qui renvoie à une page web :
-                        <p> &lt;a href = "https://exemple.com"&gt;sitewebexemple &lt;/a&gt;</p>
-                    </li>
+                  <li>Pour créer un lien qui renvoie à une page web :
+                    <p> &lt;a href = "https://exemple.com"&gt;sitewebexemple &lt;/a&gt;</p>
+                  </li>
 
-                    <li>
-                        <p>Pour créer un lien qui renvoie à une page web dans un nouvel onglet, il suffit de rajouter target="_blank" dans la balise &lt;a&gt;.
-                    </li>
+                  <li>
+                    <p>Pour créer un lien qui renvoie à une page web dans un nouvel onglet, il suffit de rajouter target="_blank" dans la balise &lt;a&gt;.
+                  </li>
 
-                    <li>Utilisation de l'attribut target :
-                        <p>taget indique où afficher la ressource liée.</p>
-                        <p>_self : par défaut;</p>
-                        <p>_blank : dans un nouvel onglet;</p>
-                        <p>_parent : dans le framset HTML5 parent;</p>
-                        <p>_top : dans le contexte de navigation le plus haut.</p>
+                  <li>Utilisation de l'attribut target :
+                    <p>taget indique où afficher la ressource liée.</p>
+                    <p>_self : par défaut;</p>
+                    <p>_blank : dans un nouvel onglet;</p>
+                    <p>_parent : dans le framset HTML5 parent;</p>
+                    <p>_top : dans le contexte de navigation le plus haut.</p>
+                  </li>
                 </ul>
-            </article>
-            <article id="introductioncss">
+              </article>
+              <article id="introductioncss">
                 <h2> 2.1 Introduction au CSS3</h2>
                 <p>Le CSS (Cascading Style Sheets) a été créé dans les années 1990 et est un langage de feuille de style permettant de décrire la présentation des documents HTML et XML.</p>
                 <p>Le CSS3 est la dernière version du CSS et a été standardisé par le W3C.</p>
                 <p>Il est d'usage de créer des fichiers .css séparés (généralement style.css), ce qui permet de réutiliser les informations de mise en forme sur d'autres pages.</p>
                 <p>Il existe deux autres façons d'écrire du code en CSS (dans l'entête &lt;head&gt; ou directement dans le document HTML grâce à un attribut "style"), cependant nous n'en parleront pas car la méthode citée ci-dessus est la seule recommandée
                     car utilisée par la plupart des webmaster.</p>
-            </article>
-            <article id="selecteurs">
+              </article>
+              <article id="selecteurs">
                 <h2> 2.2 Les sélecteurs</h2>
                 <p>CSS fait appel à des sélecteurs qui permettent d'appliquer des styles différents aux élements de l'HTML.</p>
                 <p>Les sélecteurs permettent de choisir un élément précis.</p>
@@ -255,10 +255,10 @@
                 </div>
                 <p>Si le sélecteur est une classe :</p>
                 <div class="augmtexte">
-                    <ul>
-                      <li>HTML : &lt;balise class = "exemple"&gt;</li>
-                      <li>CSS : .exemple{}</li>
-                    </ul>
+                  <ul>
+                    <li>HTML : &lt;balise class = "exemple"&gt;</li>
+                    <li>CSS : .exemple{}</li>
+                  </ul>
                 </div>
                 <p>Les sélecteurs peuvent se mettre sur n'importe quelle balise de la page HTML.</p>
                 <p>Exemple :</p>
@@ -271,8 +271,8 @@
                 </div>
                 <p>Le sélecteur id est toujours proritaire par rapport à la classe.</p>
                 <p>Le sélecteur id ne peut s'utiliser qu'une seule fois à la différence de la classe; c'est une des raison pour lesquelles il est préférable d'utiliser les classes plutôt que les id quand c'est possible.</p>
-            </article>
-            <article id="structuration">
+              </article>
+              <article id="structuration">
                 <h2> 2.3 La structuration des éléments via CSS3</h2>
                 <p>La notion de flux peut se définir comme l'ordre naturel dans lequel se succède les éléments qui sont déclarés dans le code HTML.</p>
                 <p>Les éléments de type block occupent toute la largeur du conteneur, permet d'attribuer des marges verticales ainsi que de modifier la hauteur et la largeur.</p>
@@ -280,117 +280,118 @@
                 <p>Pour gérer la position des éléments, on utilise la propriété position.</p>
                 <p>Il y a 4 types de position :</p>
                 <ul>
-                    <li>La position statique (position:static) : comportement par défaut;</li>
-                    <li>La position relative (position:relative) : permet de décaler un élément par rapport à sa position initiale. Les éléments qui le suivent et le précèdent ne sont pas influencés par ce décalage;</li>
-                    <li>La position absolue (position:absolute) : permet de décaler un élément par rapport à sa position initiale. L'élément est retiré du flux; il devient donc étrangé par rapport aux autres éléments du flux;</li>
-                    <li>La position fixe (position:fixed) : similaire à la position absolue mais l'élément est fixé à la position spécifiée et ne peut pas bouger même lorsque la page est parcourue.</li>
+                  <li>La position statique (position:static) : comportement par défaut;</li>
+                  <li>La position relative (position:relative) : permet de décaler un élément par rapport à sa position initiale. Les éléments qui le suivent et le précèdent ne sont pas influencés par ce décalage;</li>
+                  <li>La position absolue (position:absolute) : permet de décaler un élément par rapport à sa position initiale. L'élément est retiré du flux; il devient donc étrangé par rapport aux autres éléments du flux;</li>
+                  <li>La position fixe (position:fixed) : similaire à la position absolue mais l'élément est fixé à la position spécifiée et ne peut pas bouger même lorsque la page est parcourue.</li>
                 </ul>
                 <p>Une fois la position choisie, il faut désigner les propriétés qu'on veut lui donner: top, bottom pour haut et bas et right, left pour droite et gauche. Si ces propriétés ne sont pas définies, les valeurs par défaut sont prisent en compte.</p>
                 <p>Exemple :</p>
                 <div class="augmtexte">
-                    <pre>
+                  <pre>
                   .image{
                     position: relative;
                     top: 20%;
                     left: 10%;
                   }
-                 </pre>
+                  </pre>
                 </div>
                 <p>Pour plus d'information, je vous conseille de consulter ces trois sites :
-                    <a href="https://www.alsacreations.com/tuto/lire/608-initiation-positionnement-css.html" target="_blank">alsacreation;</a>
-                    <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/le-positionnement-en-css" target="_blank">Open Classroom;</a>
-                    <a href="https://developer.mozilla.org/fr/docs/Web/CSS/position" target="_blank">Developer Mozilla.</a></p>
-            </article>
-            <article id="formetextecouleurs">
+                  <a href="https://www.alsacreations.com/tuto/lire/608-initiation-positionnement-css.html" target="_blank">alsacreation;</a>
+                  <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/le-positionnement-en-css" target="_blank">Open Classroom;</a>
+                  <a href="https://developer.mozilla.org/fr/docs/Web/CSS/position" target="_blank">Developer Mozilla.</a></p>
+              </article>
+              <article id="formetextecouleurs">
                 <h2> 2.4 Formes, formatage texte et couleurs</h2>
                 <h3> 2.4.1 Les formes</h3>
                 <p>Pour pouvoir créer une forme il faut créer une classe dans la HTML dans une balise &lt;div&gt; :</p>
                 <div class="augmtexte">
-                    <pre>
+                  <pre>
                     &lt;div class="nom_de_la_forme"&gt;
                     &lt;div&gt;
                   </pre>
                 </div>
                 <p>Ensuite dans le css, il suffit de définir la hauteur et la largeur comme l'exemple suivant :</p>
                 <div class="augmtexte">
-                    <pre>
+                  <pre>
                   .carre{
 	                   width:300px;
 	                   height:300px;
 	                   background:blue;
                    }
-                 </pre>
+                  </pre>
                 </div>
                 <p>ou :</p>
                 <div class="augmtexte">
-                    <pre>
-                    .rectangle{
-	                    width:200px;
-	                    height:100px;
-	                    background:red;
-                    }
-                </pre>
+                  <pre>
+                  .rectangle{
+	                   width:200px;
+	                   height:100px;
+	                   background:red;
+                  }
+                  </pre>
                 </div>
                 <p>ou :</p>
                 <div class="augmtexte">
-                    <pre>
+                  <pre>
                   .rond{
 	                   width:100px;
 	                   height:100px;
 	                   background:dark;
 	                   border-radius:100px;
                    }
-                </pre>
+                  </pre>
                 </div>
                 <p>C'est grâce au "border-radius", qu'il est possible de créer des carrés ou rectangles aux bords arrondies</p>
                 <p>Dans cette propriété border-radius, nous pouvons voir qu'il y a "border", qui permet de créer des bordures aux formes</p>
                 <ul>
-                    <li>border-width : pour l'épaisseur. On l'exprime généralement en pixels: "border-width:2px;";</li>
-                    <li>border-style : pour le style. Puis "dotted" (pointillé), "dashed" (tirets), "solid" (solide), "groove" (rainurée), "double" (double), "ridge" (relief), "inset" (relief intérieur) et "outset" (relief extérieur).</li>
+                  <li>border-width : pour l'épaisseur. On l'exprime généralement en pixels: "border-width:2px;";</li>
+                  <li>border-style : pour le style. Puis "dotted" (pointillé), "dashed" (tirets), "solid" (solide), "groove" (rainurée), "double" (double), "ridge" (relief), "inset" (relief intérieur) et "outset" (relief extérieur).</li>
                 </ul>
                 <h3> 2.4.2 Formatage et mise en forme du texte</h3>
                 <p>Pour modifier la police d'un texte on utilise la propriété "font-family", suivi du nom de la police souhaitée.</p>
                 <p>Exemple : </p>
                 <div class="augmtexte">
-                    <pre>
+                  <pre>
                   body {
                     font-family: Verdana, sans-serif;
                   }
-                </pre>
+                  </pre>
                 </div>
                 <p>Pour modifier la taille d'un texte on utilise la propriété "font-size", suivi de la valeur de la taille.</p>
                 <p>Exemple :</p>
                 <div class="augmtexte">
-                    <pre>
-                 body {
-                   font-size: 30px;
-                 }
-               </pre>
+                  <pre>
+                    body {
+                      font-size: 30px;
+                    }
+                  </pre>
                 </div>
                 <p>La propriété font-weight: bold permet de mettre un texte en gras, font-style: italic, en italique et text-decoration: underline, de souligner le texte.</p>
                 <p>La fonction text-align permet l'alignement: left, center, right ou justify.</p>
                 <h3> 2.4.3 La couleur</h3>
                 <P>Pour la couleur du texte il s'agit de "color" et pour la couleur du fond "background-color". Ensuite, il existe trois manières de désigner la couleur :</p>
                 <ul>
-                    <li>En écrivant le nom en anglais. Ex: black,white,red,blue...</li>
-                    <li>En indiquant l'équivalence de la couleur en hexadécimal précédé d'un "#". Ex: #FFFFFF pour blanc, #000000 pour noir.</li>
-                    <li>En indiquant les valeurs de RGB (rouge vert bleu). Ex: rgb(0,0,0) pour noir et rgb(255,255,255) pour blanc.</li>
+                  <li>En écrivant le nom en anglais. Ex: black,white,red,blue...</li>
+                  <li>En indiquant l'équivalence de la couleur en hexadécimal précédé d'un "#". Ex: #FFFFFF pour blanc, #000000 pour noir.</li>
+                  <li>En indiquant les valeurs de RGB (rouge vert bleu). Ex: rgb(0,0,0) pour noir et rgb(255,255,255) pour blanc.</li>
                 </ul>
-            </article>
-            <article id="formulaires">
+              </article>
+              <article id="formulaires">
                 <h2> 3.1 Les formulaires</h2>
                 <p>Un formulaire se créer grâce à la balise &lt;form&gt; &lt;/form&gt;.</p>
                 <p>Dans cette balise, il faut décrire:</p>
                 <ul>
                   <li>"action" : c'est l'adresse du fichier qui va traiter l'information envoyée;</li>
-                  <li>"method" : indique comment l'information est envoyée. Il existe deux méthodes d'accès :</li>
-                    <ul>
-                      <li>"get" : les données du formulaire sont encodées dans une URL et cette méthode limite le nombre de caractères;</li>
-                      <li>"post" : les données du formulaire ne sont pas encodées dans une URL et cette méthode ne limite pas le nombre de caractères. Cette méthode est la plus utilisée.</li>
-                    </ul>
+                  <li>"method" : indique comment l'information est envoyée. Il existe deux méthodes d'accès :
+                  <ul>
+                    <li>"get" : les données du formulaire sont encodées dans une URL et cette méthode limite le nombre de caractères;</li>
+                    <li>"post" : les données du formulaire ne sont pas encodées dans une URL et cette méthode ne limite pas le nombre de caractères. Cette méthode est la plus utilisée.</li>
+                  </ul>
+                  </li>
                 </ul>
-             </article>
-             <article id="exbaliseform">
+              </article>
+              <article id="exbaliseform">
                 <h2> 3.2 Exemples de balises utilisées dans un formulaire</h2>
                 <ul>
                   <li>&lt;input&gt;. Dans cette balise on indique le type qu'on veut, son nom et éventuellement une classe ou un id so nécessaire;</li>
@@ -410,99 +411,99 @@
               <article id="exform">
                 <h2> 3.3 Exemple de formulaire d'inscription</h2>
                 <form action="" method="post">
-                    <p><em>Les champs marqués par * sont obligatoires.</em></p>
-                    <fieldset>
-                        <legend>Informations personnelles:</legend>
-                        <div class=formulaire>
-                            <label for="nom" class=textformulaire>
-                          Nom*
-                        </label>
-                            <input placeholder="Nom" type="text" name="user_name" id="nom" required="" />
-                            <label for="prenom" class=textformulaire>
-                          Prénom*
-                          </label>
-                            <input placeholder="Prénom" type="text" name="user_first_name" id="prenom" required="" />
-                            <label for="datenaissance" class=textformulaire>
-                            Date de naissance
-                          </label>
-                            <input type="date" name="datenaissance" id="datenaissance" />
-                            <label for="selection" class=textformulaire>
-                            Sexe
-                          </label>
-                            <select name="selection">
-                            <option value=1>
-                              Femme
-                            </option>
-                            <option value=2>
-                              Homme
-                            </option>
-                            <option value=3>
-                              Non défini
-                            </option>
-                          </select>
-                            <label for="user_email" class=textformulaire>
-                          Mail*
-                        </label>
-                            <input placeholder="email" type="email" name="user_email" id="user_email" required="" />
-                            <label for="verifmail" class=textformulaire>
+                  <p><em>Les champs marqués par * sont obligatoires.</em></p>
+                  <fieldset>
+                    <legend>Informations personnelles:</legend>
+                    <div class=formulaire>
+                      <label for="nom" class=textformulaire>
+                        Nom*
+                      </label>
+                      <input placeholder="Nom" type="text" name="user_name" id="nom" required="" />
+                      <label for="prenom" class=textformulaire>
+                        Prénom*
+                      </label>
+                      <input placeholder="Prénom" type="text" name="user_first_name" id="prenom" required="" />
+                      <label for="datenaissance" class=textformulaire>
+                        Date de naissance
+                      </label>
+                      <input type="date" name="datenaissance" id="datenaissance" />
+                      <label for="selection" class=textformulaire>
+                        Sexe
+                      </label>
+                      <select name="selection" id="selection">
+                        <option value=1>
+                          Femme
+                        </option>
+                        <option value=2>
+                          Homme
+                        </option>
+                        <option value=3>
+                          Non défini
+                        </option>
+                      </select>
+                      <label for="user_email" class=textformulaire>
+                        Mail*
+                      </label>
+                      <input placeholder="email" type="email" name="user_email" id="user_email" required="" />
+                      <label for="verifmail" class=textformulaire>
                           Veuillez confirmer votre mail*
-                        </label>
-                            <input placeholder="email" type="email" name="verifmail" id="verifmail" required="" />
-                            <label for="profession" class=textformulaire>
+                      </label>
+                        <input placeholder="Confirmation email" type="email" name="verifmail" id="verifmail" required="" />
+                        <label for="profession" class=textformulaire>
                           Profession
                         </label>
-                            <input placeholder="Profession" type="text" name="profession" id="profession" />
+                        <input placeholder="Profession" type="text" name="profession" id="profession" />
                       </div>
                     </fieldset>
                     <fieldset>
-                        <legend>Comment avez-vous connu le site?</legend>
-                        <input type="checkbox" name="correction" id="correction" />
-                        <label for="correction">
-                              Pour m'évaluer
-                            </label>
-                        <input type="checkbox" name="internet" id="internet" />
-                        <label for="internet">
-                              Internet
-                             </label>
-                        <input type="checkbox" name="blablabla" id="blablabla" />
-                        <label for="blablabla">
-                              Bouche à oreille
-                             </label>
-                        <input type="checkbox" name="publicite" id="publicite" />
-                        <label for="publicite">
-                              Publicité
-                             </label>
+                      <legend>Comment avez-vous connu le site?</legend>
+                      <input type="checkbox" name="correction" id="correction" />
+                      <label for="correction">
+                          Pour m'évaluer
+                      </label>
+                      <input type="checkbox" name="internet" id="internet" />
+                      <label for="internet">
+                        Internet
+                      </label>
+                      <input type="checkbox" name="blablabla" id="blablabla" />
+                      <label for="blablabla">
+                        Bouche à oreille
+                      </label>
+                      <input type="checkbox" name="publicite" id="publicite" />
+                      <label for="publicite">
+                        Publicité
+                      </label>
                     </fieldset>
                     <fieldset>
-                        <legend>Commentaires</legend>
-                        <textarea name="commentaire" placeholder="Veuillez saisir votre avis sur le site" id="commentaire"></textarea>
+                      <legend>Commentaires</legend>
+                      <textarea name="commentaire" placeholder="Veuillez saisir votre avis sur le site" id="commentaire"></textarea>
                     </fieldset>
                     <button type="submit">
-                    Envoyer
+                      Envoyer
                     </button>
                     <button type="reset">
-                    Annuler
+                      Annuler
                     </button>
-                    </form>
-              </article>
+                  </form>
+                </article>
 
-                    <div class="textefleche">
-                        <p><a href="#titre1">Retour vers le haut de la page</a></p>
-                    </div>
-                    <div class="blocimage6">
-                        <img src="flechehaut.png" alt="Image fleche" class="Image">
-                    </div>
+                <div class="textefleche">
+                  <p><a href="#titre1">Retour vers le haut de la page</a></p>
+                </div>
+                <div class="blocimage6">
+                  <img src="flechehaut.png" alt="Image fleche" class="Image" />
+                </div>
 
-            <p>Les informations contenues dans cette page WEB ne sont pas complète c'est pourquoi je recommande les sites suivant pour plus d'information :</p>
-            <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3" target="_blank">Open Classroom;</a>
-            <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">Developer Mozilla;</a>
-            <a href="https://www.alsacreations.com/tuto/lire/1493-css3-flexbox-layout-module.html" target="_blank">Tutoriel CSS par Raphael;</a>
-            <a href="https://validator.w3.org/" target="_blank">Validateur;</a>
-            <a href="http://caniuse.com/" target="_blank">CanIUse;</a>
-            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox.</a>
+                <p>Les informations contenues dans cette page WEB ne sont pas complète c'est pourquoi je recommande les sites suivant pour plus d'information :</p>
+                <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3" target="_blank">Open Classroom;</a>
+                <a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank">Developer Mozilla;</a>
+                <a href="https://www.alsacreations.com/tuto/lire/1493-css3-flexbox-layout-module.html" target="_blank">Tutoriel CSS par Raphael;</a>
+                <a href="https://validator.w3.org/" target="_blank">Validateur;</a>
+                <a href="http://caniuse.com/" target="_blank">CanIUse;</a>
+                <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox.</a>
+              </div>
+
+              <footer> <em>© 2017 Benoit Bouëssay All rights reserved.</em></footer>
+            </div>
           </div>
-            <footer> <em>© 2017 Benoit Bouëssay All rights reserved.</em></footer>
-        </div>
-    </div>
-</div>
-</html>
+        </html>
